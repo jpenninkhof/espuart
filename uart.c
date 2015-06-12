@@ -11,9 +11,8 @@
 *******************************************************************************/
 #include "ets_sys.h"
 #include "osapi.h"
-#include "driver/uart.h"
-
-#include "driver/uart_register.h"
+#include "uart.h"
+#include "uart_register.h"
 
 // UartDev is defined and initialized in rom code.
 extern UartDevice    UartDev;
